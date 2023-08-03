@@ -1,0 +1,172 @@
+body{
+    background-color: antiquewhite;
+}
+
+.cabecalho{
+    background-color: rgb(31, 95, 65);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalho__icone{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.cabecalho__filtro{
+    height: 30px;
+    width: 30vw;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Nunito";
+    border-radius: 100px;
+    border: none;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+
+}
+
+.ajust__botao__add{
+    display: flex;
+    justify-content: center;
+}
+
+.button__add__tarefa{
+    font-size: 30px;
+    font-family: "Nunito";
+    margin-top: 50px;
+    padding: 20px 30px;
+    border-radius: 30px;
+    border: none;
+    color: green;
+    background-color: rgb(177, 228, 177);
+}
+
+
+.add__tarefa__div{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.form__add{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Nunito";
+
+}
+
+.form__add input{
+    font-size: 25px;
+    width: 25vw;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+}
+
+.form__add label{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.form__add__div__botoes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.form__add__div__botoes button, h2{
+    font-size: 30px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.form__add__fechar{
+    background-color: rgb(204, 86, 86);
+}
+
+.form__add__enviar{
+    background-color: rgb(92, 202, 202);
+}
+
+.tabela th{
+    border: 3px solid black;
+}
+
+.tabela__titulo__campo{
+    font-family: "Nunito";
+    background-color: rgb(12, 114, 42);
+    font-size: 35px;
+}
+
+.tabela__titulo__campo__tarefa{
+    padding: 10px 15vw;
+}
+
+.tabela__titulo__campo__local{
+    padding: 10px 10vw;
+}
+
+.tabela__titulo__campo__dia{
+    padding: 10px 2.5vw;
+}
+
+.tabela__titulo__campo__horario{
+    padding: 10px 2.5vw;
+}
+
+.tabela__campo th{
+    font-size: 30px;
+    padding: 2px 0;
+    font-family: "Nunito";
+}
+
+.botoes__edit__excluir{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.botoes__edit__excluir button{
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 0 30px;
+    font-family: "Nunito";
+    border: none;
+    border-radius: 10px;
+}
+
+.botoes__edit__excluir input{
+    font-size: 20px;
+    padding: 7px 0;
+    width: 20vw ;
+    font-family: "Nunito";
+}
+
+.botao__edit__item{
+    background-color: rgb(92, 202, 202);
+}
+
+.botao__sair__item{
+    background-color: rgb(204, 86, 86);
+}
+
+.botao__apagar__item{
+    background-color: rgb(204, 86, 86);
+}
+
+.button__sair{
+    background-color: rgb(204, 86, 86);
+}
+
+.button__ediar{
+    background-color: rgb(92, 202, 202);
+}

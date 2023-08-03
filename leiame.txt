@@ -1,0 +1,5 @@
+Bom dia, este arquivo sai servir como manual e explicativa da técnica de construção desta página.
+
+Banco de dados : basta mudar a senha em public/index.php e src/Database/config.php e criar um banco de dados com o nome "tarefas_lista" e rodar o arquivo src/Database/config.php 
+
+autoload : basta rodar o comando composer dump-autoload
